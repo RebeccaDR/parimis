@@ -1,41 +1,112 @@
 body {
   background: #d7d4d0;
   margin: 0;
+  font-family: 'Dosis', sans-serif;
 }
 
 .container {
   background: #fff;
   margin: 0 auto;
-  height: 185vh;
   width: 85%;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  text-align: justify;
 }
 
 /* ************** HEADER **************** */
 
 .logo {
   height: 145px;
-  background: lavender;
+}
+
+.logo-img {
+  height: 145px;
+  float: left;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 120px;
+}
+
+.logo-text {
+  color: #d5b58b;
+  float: left;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 700;
+  margin: 30px auto;
 }
 
 .banner {
   height: 145px;
-  background: lemonchiffon;
+}
+
+.banner-hotel {
+  background: url('./images/hotel_opacitybig.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  padding: 0;
 }
 
 /* ************** NAVBAR **************** */
 
 .navbar {
-  height: 40px;
-  background: rosybrown;
+  height: 45px;
+  background: #706464;
 }
+
+
+
+
 
 /* ************** CONTENU **************** */
 
 .content {
   margin: 0 auto;
-  background: thistle;
-  height: 150vh;
+  padding: 40px 10px 40px 10px;
+  background: #fff;
   width: 85%;
+}
+
+.title2, .subtitle {
+  margin: 0;
+  font-family: 'Playfair Display SC', serif;
+  color: #d5b58b;
+}
+
+.subtitle {
+  font-weight: 400;
+}
+
+.frontporch {
+  width: 100%;
+  margin: 40px 0 40px 0;
+}
+
+.redirect {
+  margin: 30px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.avis-redirect, .presse-redirect {
+  display: inline-block;
+  font-family: 'Playfair Display SC', serif;
+  text-decoration: none;
+  color: #d5b58b;
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.avis-redirect:hover, .presse-redirect:hover {
+  color: #a28a69;
 }
 
 
@@ -44,7 +115,7 @@ body {
 footer {
   width: 100%;
   height: 33px;
-  background: rosybrown;
+  background: #706464;
 }
 
 /* ************** GRILLE **************** */
