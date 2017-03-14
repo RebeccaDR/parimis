@@ -18,6 +18,26 @@ p {
   text-align: justify;
 }
 
+/* ************** GRILLE **************** */
+
+.grid_1{width: 8.33%;}
+.grid_2{width: 16.66%;}
+.grid_3{width: 25%;}
+.grid_4{width: 33.33%;}
+.grid_5{width: 41.66%;}
+.grid_6{width: 50%;}
+.grid_7{width: 58.33%;}
+.grid_8{width: 66.66%;}
+.grid_9{width: 75%;}
+.grid_10{width: 83.33%;}
+.grid_11{width: 91.66%;}
+.grid_12{width: 100%;}
+
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  float: left;
+  display: block;
+}
+
 /* ************** HEADER **************** */
 
 .logo {
@@ -169,7 +189,7 @@ nav {
   text-align: center;
 }
 
-.avis-redirect, .presse-redirect {
+.button {
   display: inline-block;
   font-family: 'Playfair Display SC', serif;
   text-decoration: none;
@@ -182,7 +202,7 @@ nav {
   transition: 0.4s;
 }
 
-.avis-redirect:hover, .presse-redirect:hover {
+.button:hover {
   color: #a28a69;
   background: #eedfcb;
 }
@@ -192,7 +212,7 @@ nav {
 
 footer {
   width: 100%;
-  height: 33px;
+  min-height: 33px;
   background: #706464;
 }
 
@@ -266,24 +286,3 @@ footer {
 .twitter:hover { background-position: -60px -30px; }
 .googleplus:hover { background-position: -30px -30px; }
 .share:hover { background-position: 0 -30px; }
-
-
-/* ************** GRILLE **************** */
-
-.grid_1{width: 8.33%;}
-.grid_2{width: 16.66%;}
-.grid_3{width: 25%;}
-.grid_4{width: 33.33%;}
-.grid_5{width: 41.66%;}
-.grid_6{width: 50%;}
-.grid_7{width: 58.33%;}
-.grid_8{width: 66.66%;}
-.grid_9{width: 75%;}
-.grid_10{width: 83.33%;}
-.grid_11{width: 91.66%;}
-.grid_12{width: 100%;}
-
-.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
-  float: left;
-  display: block;
-}
