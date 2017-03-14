@@ -26,10 +26,12 @@ p {
 
 .logo-img {
   height: 145px;
+  width: 40%;
   float: left;
-  background-position: left;
+  background-image: url('./images/logo_small200.png');
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 120px;
+  background-size: 145px auto;
 }
 
 .logo-text {
@@ -53,14 +55,89 @@ p {
 
 /* ************** NAVBAR **************** */
 
-.navbar {
+/*.navbar {
   height: 45px;
   background: #706464;
+}*/
+
+nav {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
+.navbar {
+  /*position: relative;*/
+  list-style: none;
+  background: #706464;
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display SC', serif;
+  width: 100%;
+}
 
+.menu-item {
+  margin: 0;
+  font-size: 1.2em;
+  display: inline-block;
+  position: relative;
+  padding: 10px 0;
+  cursor: pointer;
+  z-index: 5;
+  width: 16%;
+  text-align: center;
+  transition: background 0.3s ease-in-out;
+}
 
+.navbar li a {
+  color: #d5b58b;
+  font-weight: 400;
+  text-decoration: none;
+}
 
+.navbar li:hover {
+  background: #827878;
+}
+
+.navbar li .drop {
+  font-size: 0.8em;
+  height: 0;
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  padding: 0;
+  width: 120%;
+  left: 0;
+  top: 45px;
+  border-top: 2px solid transparent;
+  transition: 0.5s ease-in;
+}
+
+.navbar li .drop li {
+  display: none;
+  width: calc(100 - 20px);
+}
+
+.navbar li:hover .drop {
+  height: 250px;
+}
+
+.navbar li:hover .drop li {
+  display: block;
+  height: auto;
+  padding: 10px;
+  background: #a5a0a0;
+  width: 90%;
+}
+
+.navbar li .drop li a {
+  color: #706464;
+}
+
+.navbar li:hover .drop li:hover {
+  background: #cbbaba;
+}
 
 /* ************** CONTENU **************** */
 
@@ -100,13 +177,14 @@ p {
   border: 1px solid;
   border-radius: 4px;
   font-size: 1.2em;
-  padding: 5px;
+  padding: 10px;
   margin: 20px;
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 .avis-redirect:hover, .presse-redirect:hover {
   color: #a28a69;
+  background: #eedfcb;
 }
 
 
@@ -117,6 +195,78 @@ footer {
   height: 33px;
   background: #706464;
 }
+
+.language {
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.language li {
+  display: inline-block;
+  margin: 2px;
+  font-family: 'Playfair Display SC', serif;
+  color: #d5b58b
+}
+
+.language li p {
+  padding-left: 35px;
+  margin: 3px;
+}
+
+.world-icon {
+  width: 30px;
+  height: 30px;
+  background: url("./images/sprite.png") no-repeat;
+  background-position: -150px 0;
+}
+.world-icon:hover { background-position: -150px -30px; }
+
+.bottom-nav {
+  font-size: 0.9em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.bottom-nav li a {
+  text-decoration: none;
+  color: #eedfcb;
+}
+
+.sprite {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.sprite li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("./images/sprite.png");
+  background-repeat: no-repeat;
+  margin: 2px 0;
+}
+
+.print { background-position: -120px 0; }
+.facebook { background-position: -90px 0; }
+.twitter { background-position: -60px 0; }
+.googleplus { background-position: -30px 0; }
+.share { background-position: 0 0; }
+
+.print:hover { background-position: -120px -30px; }
+.facebook:hover { background-position: -90px -30px; }
+.twitter:hover { background-position: -60px -30px; }
+.googleplus:hover { background-position: -30px -30px; }
+.share:hover { background-position: 0 -30px; }
+
 
 /* ************** GRILLE **************** */
 
