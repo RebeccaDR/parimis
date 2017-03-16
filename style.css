@@ -65,14 +65,16 @@ p {
 .banner {
   position: relative;
   height: 145px;
-}
-
-.banner-hotel {
-  background: url('./images/hotel_opacitybig.png');
   background-position: left;
   background-repeat: no-repeat;
   padding: 0;
 }
+
+.banner-hotel {  background: url('./images/hotel_opacitybig.png');}
+.banner-chambres {  background: url('./images/chambre_opacitybig.png');}
+.banner-resto { background: url('./images/resto_opacitybig.png');}
+.banner-spa { background: url('./images/spa_opacitybig.png');}
+
 
 #panier {
   position: absolute;
@@ -287,6 +289,11 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+.slidebar .description .description-text {
+  min-width: 24vw;
+  display: inline-block;
+}
+
 .slidebar-room:hover .illustration {
   /* quand on passe sur le bandeau on réduit la taille de l'image */
   width: 50%;
@@ -323,6 +330,20 @@ nav {
 .slidebar-resto:hover .description a {
   padding: 37px 10px;
 }
+
+/* ************** CONTENU SPA **************** */
+
+.slidebar .description .description-text-spa {
+  min-width: 38vw;
+  display: inline-block;
+}
+
+.spa-detente { background-image: url("./images/spa_detentebig.png"); }
+.spa-decouverte { background-image: url("./images/spa_decouvertebig.png"); }
+.spa-relaxant { background-image: url("./images/spa_relaxantbig.png"); }
+.spa-plaisir{ background-image: url("./images/spa_plaisirbig.png"); }
+.spa-evasion { background-image: url("./images/spa_evasionbig.png"); }
+
 
 /* ************** FOOTER **************** */
 
