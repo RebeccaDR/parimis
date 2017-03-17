@@ -386,7 +386,9 @@ nav {
 /* ************** CONTENU ACCES **************** */
 
 .acces {
-  margin: 30px;
+  padding: 0 30px 0 30px;
+  margin-bottom: 30px;
+  background: #EDEDED;
 }
 
 .infos-acces {
@@ -408,6 +410,10 @@ nav {
 iframe {
   min-height: 400px;
   padding: 20px;
+}
+
+.title2-margin {
+  margin-bottom: 20px;
 }
 
 /* ************** FORMULAIRE CONTACT **************** */
@@ -445,28 +451,32 @@ footer {
 .language {
   list-style: none;
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
 }
 
-.language li {
-  display: inline-block;
-  margin: 2px;
-  font-family: 'Playfair Display SC', serif;
-  color: #d5b58b
-}
-
-.language li p {
-  padding-left: 35px;
-  margin: 3px;
-}
-
-.world-icon {
+.language .world-icon {
+  float: left;
+  margin: 15px 8px 0 20px;
   width: 30px;
   height: 30px;
   background: url("./images/sprite.png") no-repeat;
   background-position: -150px 0;
 }
-.world-icon:hover { background-position: -150px -30px; }
+
+.language div {
+  float: left;
+  width: 50px;
+  margin: 10px 5px;
+}
+
+.language div span {
+  font-family: 'Playfair Display SC', serif;
+  color: #d5b58b;
+}
+
+.language div span:hover {
+  color: #eedfcb;
+}
 
 .bottom-nav {
   font-size: 0.9em;
@@ -486,8 +496,12 @@ footer {
   color: #eedfcb;
 }
 
+.bottom-nav li a:hover {
+  color: #d5b58b;
+}
+
 .sprite {
-  padding: 0;
+  padding: 8px 0 0 0;
   margin: 0;
   text-align: center;
 }
@@ -498,7 +512,7 @@ footer {
   height: 30px;
   background-image: url("./images/sprite.png");
   background-repeat: no-repeat;
-  margin: 2px 0;
+  margin: 0;
 }
 
 .print { background-position: -120px 0; }
