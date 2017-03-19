@@ -416,7 +416,7 @@ iframe {
   margin-bottom: 20px;
 }
 
-/* ************** FORMULAIRE CONTACT **************** */
+/* ************** FORMULAIRE CONTACT & RECRUTEMENT **************** */
 
 form {
   margin: 30px auto;
@@ -439,6 +439,15 @@ form .send-button {
   width: 80px;
   font-size: 1em;
 }
+
+form .reset-button {
+  font-size: 1em;
+}
+
+.radio label {
+  float: none;
+}
+
 
 /* ************** FOOTER **************** */
 

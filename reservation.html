@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Réservation - Hôtel Parimis ***** Suites, Restaurant, Spa à Paris</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800|Playfair+Display+SC:400,400i,700,700i,900,900i" rel="stylesheet">
+    <script type="text/javascript" src="./src/jquery-3.2.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="grid_12">
+        <div class="logo grid_4">
+          <div class="logo-img"></div>
+          <h1 class="logo-text">Hôtel<br/>Parimis</h1>
+        <div class="clear"></div>
+        </div>
+        <div class="banner banner-hotel grid_8">
+          <div class="banner-button">
+            <a class="button" href="./reservation.html">Réserver</a>
+            <a class="button" href="#">Mon panier</a>
+          </div>
+        </div>
+      </header>
+      <nav>
+        <ul class="navbar grid_12">
+          <li class="menu-item"><a href="./hotel.html">Hôtel</a>
+            <ul class="drop">
+              <li class="menu-item"><a href="./hotel.html">Présentation</a></li>
+              <li class="menu-item"><a href="./acces-contact.html">Accès &amp; Contact</a></li>
+              <li class="menu-item"><a href="">Événements</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="./chambres.html">Chambres</a></li>
+          <li class="menu-item"><a href="./restaurant.html">Restaurant</a></li>
+          <li class="menu-item"><a href="./spa.html">Spa &amp; Soins</a></li>
+          <li class="menu-item"><a href="">Actualités</a></li>
+          <li class="menu-item"><a href="">Rechercher</a>
+            <ul class="drop">
+              <li class="menu-item"><input type="search" name="search" class="search"></input></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="grid_12">
+        <section class="content">
+          <h2 class="grid_12 title2 title2-margin">Réservez votre séjour</h2>
+          <div class="grid_11 acces">
+            <form>
+              <h4>Informations sur le séjour</h4>
+              <p>
+                <label for="dates-sejour">Dates</label>
+                <input type="text" class="date-from" name="from" placeholder="Du..."/>
+                <input type="text" class="date-to" name="to" placeholder="Au..."/>
+              </p>
+              <p>
+                <label for="roomtype">Type de chambre</label>
+                <select id="roomType" name="roomType">
+                  <option value="sel" selected disabled>Sélectionnez une catégorie</option>
+                  <option value="ch-class">Chambre Classique</option>
+                  <option value="ch-conf">Chambre Confort</option>
+                  <option value="ch-del">Chambre Deluxe</option>
+                  <option value="ch-suite">Suite</option>
+                </select>
+              </p>
+              <p>
+                <label for="company">Nombre d'adultes</label>
+                <select class="nb-adultes" name="nb-adultes">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </p>
+              <p>
+                <label for="company">Nombre d'enfants</label>
+                <select class="nb-enfants" name="nb-enfants">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                </select>
+              </p>
+              <h4>Informations personnelles</h4>
+              <h6>Les champs marqués d'une * sont à remplir obligatoirement.</h6>
+              <p>
+                <label for="lastname">Nom*</label>
+                <input type="text" class="lastname" name="lastname" placeholder="Votre nom"/>
+              </p>
+              <p>
+                <label for="firstname">Prénom*</label>
+                <input type="text" class="firstname" name="firstname" placeholder="Votre prénom"/>
+              </p>
+              <p>
+                <label for="telephone">Téléphone*</label>
+                <input type="text" class="telephone" name="telephone" placeholder="Votre numéro de téléphone"/>
+              </p>
+              <p>
+                <label for="email">Adresse e-mail*</label>
+                <input type="text" class="email" name="email" placeholder="Votre email"/>
+              </p>
+              <h4>Adresse Postale</h4>
+              <p class="radio">
+                <input type="radio" class="rdoaddress" name="rdoaddress" checked="checked"/>
+                <label for="rdoadress">Personnelle</label>
+                <input type="radio" class="rdoaddress" name="rdoaddress"/>
+                <label for="rdoadress">Professionnelle</label>
+              <p>
+                <label for="address">Adresse*</label>
+                <input type="text" class="address" name="address" placeholder="Votre adresse"/>
+              </p>
+              <p>
+                <label for="postcode">Code Postal*</label>
+                <input type="text" class="postcode" name="postcode" placeholder="Votre code postal"/>
+              </p>
+              <p>
+                <label for="city">Ville*</label>
+                <input type="text" class="city" name="city" placeholder="Votre ville"/>
+              </p>
+              <p>
+                <label for="country">Pays*</label>
+                <input type="text" class="country" name="country" placeholder="Votre pays"/>
+              </p>
+              <p>
+                <input type="checkbox" class="check" name="check"/><span>J'ai bien pris connaissance des <a href="./terms-of-sale.html">Conditions Générales de Vente</a> et de réservation.</span>
+              </p>
+              <input type="submit" class="send-button" name="send" value="Envoyer" />
+              <input type="reset" class="reset-button" name="reset" value="Réinitialiser"/>
+            </form>
+          </div>
+          <div class="clear"></div>
+        </section>
+      </div>
+      <footer class="grid_12">
+        <div class="grid_2 language">
+          <div class="world-icon"></div>
+          <div><span>FR</span><br /><span>EN</span></div>
+          <div class="clear"></div>
+        </div>
+        <div class="grid_8">
+          <ul class="bottom-nav">
+            <li><a href="./mentions-legales.html">Mentions légales</a></li>
+            <li><a href="./terms-of-sale.html">Conditions Générales de Vente</a></li>
+            <li><a href="./sitemap.html">Plan du Site</a></li>
+            <li><a href="./acces-contact.html">Accès/Contact</a></li>
+            <li><a href="#">Avis</a></li>
+            <li><a href="#">Presse</a></li>
+            <li><a href="./recrutement.html">Recrutement</a></li>
+          </ul>
+        </div>
+        <div class="grid_2">
+          <ul class="sprite">
+            <li class="print"><a href="#"></a></li>
+            <li class="facebook"><a href="#"></a></li>
+            <li class="twitter"><a href="#"></a></li>
+            <li class="googleplus"><a href="#"></a></li>
+            <li class="share"><a href="#"></a></li>
+          </ul>
+        </div>
+      </footer>
+      <div class="clear"></div>
+    </div>
+
+    <script>
+      var search = window.location.search.substring(1);
+      var roomSelector = document.getElementById("roomType");
+
+      if (search.length) {
+        search = search.split("=");
+        if (search[0] === "room") {
+          roomSelector.value = search[1];
+        }
+      }
+    </script>
+    <script>
+      $( function() {
+        var dateFormat = "mm/dd/yy",
+        from = $( ".date-from" )
+        .datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 1,
+          minDate: 0
+        })
+        .on( "change", function() {
+          to.datepicker( "option", "minDate", getDate( this ) );
+        }),
+        to = $( ".date-to" ).datepicker({
+          defaultDate: "+1w",
+          changeMonth: true,
+          numberOfMonths: 1,
+          minDate: 0
+        })
+        .on( "change", function() {
+          from.datepicker( "option", "maxDate", getDate( this ) );
+        });
+
+        function getDate( element ) {
+          var date;
+          try {
+            date = $.datepicker.parseDate( dateFormat, element.value );
+          } catch( error ) {
+            date = null;
+          }
+
+          return date;
+        }
+      } );
+    </script>
+  </body>
+</html>

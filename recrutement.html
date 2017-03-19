@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8"/>
-    <title>Accès et Contact - Hôtel Parimis ***** Suites, Restaurant, Spa à Paris</title>
+    <title>Recrutement - Hôtel Parimis ***** Suites, Restaurant, Spa à Paris</title>
     <link rel="stylesheet" href="./style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800|Playfair+Display+SC:400,400i,700,700i,900,900i" rel="stylesheet">
   </head>
@@ -43,24 +43,8 @@
       </nav>
       <div class="grid_12">
         <section class="content">
-          <h2 class="grid_12 title2 title2-margin">Accèder à l'hôtel</h2>
+          <h2 class="grid_12 title2 title2-margin">Recrutement</h2>
           <div class="grid_11 acces">
-            <div class="grid_4 infos-acces">
-              <h4>Hôtel Parimis *****<br />1, avenue Montaigne<br />75008 PARIS</h4>
-              <h4>Transports en commun :</h4>
-              <p><img class="metro-logo" src="./images/metro9.png"/>  Métro Ligne 9 - Alma-Marceau</p>
-              <p><img class="rer-logo" src="./images/rerc.png"/>RER C - Pont de l'Alma/Musée du Quai Branly</p>
-              <h4>Un <strong>service voiturier</strong> est mis à la disposition des clients de l'hôtel.</h4>
-            </div>
-            <div class="grid_7 map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.640873512453!2d2.300440866987674!3d48.865058189644074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0e963be5%3A0xc1eaef86d52e03bb!2s1+Avenue+Montaigne%2C+75008+Paris!5e0!3m2!1sfr!2sfr!4v1489744614394" width=100% height=100% frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
-        </section>
-        <section class="content">
-          <h2 class="grid_12 title2 title2-margin">Contactez-nous</h2>
-          <div class="grid_11 acces">
-            <p>Vous souhaitez rejoindre nos équipes ? Envoyez votre candidature via notre page <a href="./recrutement.html">Recrutement</a>.</p>
             <form>
               <h6>Les champs marqués d'une * sont à remplir obligatoirement.</h6>
               <p>
@@ -80,22 +64,15 @@
                 <input type="text" class="email" name="email" placeholder="Votre email"/>
               </p>
               <p>
-                <label for="country">Pays</label>
-                <input type="text" class="country" name="country" placeholder="Votre pays"/>
+                <label for="cv">CV*</label>
+                <input type="file" class="cv-file" name="cv-file"/>
               </p>
               <p>
-                <label for="category">Catégorie*</label>
-                <select class="category" name="category">
-                  <option value="sel" selected disabled>Sélectionnez une catégorie</option>
-                  <option value="rooms">Chambres</option>
-                  <option value="rest">Restaurant</option>
-                  <option value="spa">Spa &amp; Soins</option>
-                  <option value="gen">Ordre général</option>
-                </select>
+                <label for="lm">Lettre de motivation*</label>
+                <input type="file" class="lm-file" name="lm-file"/>
               </p>
-              <p><label for="object">Sujet*</label>
-                <input type="text" class="object" name="object" placeholder="Sujet de votre message"/></p>
-              <p><label for="message">Message*</label>
+              <p>
+                <label for="message">Message</label>
                 <textarea type="text" class="message" name="message" placeholder="Votre message"></textarea>
               </p>
               <input type="submit" class="send-button" name="send" value="Envoyer" />
@@ -105,10 +82,10 @@
         </section>
       </div>
       <footer class="grid_12">
-        <div class="grid_2">
-          <ul class="language">
-            <li class="world-icon"><p>FR/EN</p></li>
-          </ul>
+        <div class="grid_2 language">
+          <div class="world-icon"></div>
+          <div><span>FR</span><br /><span>EN</span></div>
+          <div class="clear"></div>
         </div>
         <div class="grid_8">
           <ul class="bottom-nav">
