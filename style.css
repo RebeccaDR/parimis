@@ -416,6 +416,35 @@ iframe {
   margin-bottom: 20px;
 }
 
+/* ************** CONTENU PANIER **************** */
+
+
+
+.vignette-cart, .detail-cart {
+  margin: 20px;
+}
+
+.detail-cart h4 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.total-cart {
+  padding-left: 20px;
+}
+
+.total-cart h4, .total-cart p, .total-cart input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.cart-button {
+  margin: 16px;
+  font-size: 1em;
+}
+
+
+
 /* ************** FORMULAIRE CONTACT & RECRUTEMENT **************** */
 
 form {
