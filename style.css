@@ -9,6 +9,7 @@ body {
   background: #fff;
   margin: 0 auto;
   width: 85%;
+  max-width: 1200px;
 }
 
 .clear {
@@ -298,7 +299,7 @@ nav {
 }
 
 .slidebar .description .description-text {
-  min-width: 24vw;
+  min-width: 20vw;
   display: inline-block;
 }
 
@@ -342,7 +343,7 @@ nav {
 /* ************** CONTENU SPA **************** */
 
 .slidebar .description .description-text-spa {
-  min-width: 38vw;
+  min-width: 29vw;
   display: inline-block;
 }
 
@@ -418,8 +419,6 @@ iframe {
 
 /* ************** CONTENU PANIER **************** */
 
-
-
 .vignette-cart, .detail-cart {
   margin: 20px;
 }
@@ -443,7 +442,129 @@ iframe {
   font-size: 1em;
 }
 
+/* ************** CONTENU EVENEMENTS **************** */
 
+.events {
+  text-align: center;
+}
+
+.events iframe {
+  margin: 0 auto;
+}
+
+.metadata {
+  width: 100%;
+  background: #eedfcb;
+  color: #706464;
+}
+
+/* ************** CONTENU BLOG **************** */
+
+.actu {
+  height: 300px;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.actu a {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 70%;
+  margin: 5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.legend {
+  position: absolute;
+  left: 0;
+  bottom: -30%;
+  background: rgba(255,255,255,0.75);
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.actu:hover .legend {
+  bottom: 0;
+}
+
+.legend span {
+  text-decoration: none;
+  color: #1C1C1C;
+  font-weight: bold;
+}
+
+.actu p {
+  padding: 0 5%;
+  margin-top: 0;
+}
+
+.actu-link1 { background-image: url("./images/etourisme-digital.png");}
+.actu-link2 { background-image: url("./images/matteo-negri.png");}
+.actu-link3 { background-image: url("./images/digital.png");}
+.actu-link4 { background-image: url("./images/louvre.png");}
+.actu-link5 { background-image: url("./images/france.png");}
+.actu-link6 { background-image: url("./images/client.png");}
+
+/* ************** CONTENU AVIS **************** */
+
+.review {
+  margin: 30px 20px;
+}
+
+.review img {
+  height: 80px;
+  width: 80px;
+}
+
+.review .userpseudo {
+  margin: 5px 0 5px 15px;
+  font-weight: bold;
+}
+
+.rating {
+  margin: 5px 0;
+}
+
+.text-review p {
+  margin: 5px 0 5px 15px;
+}
+
+.review-rating span {
+  color: gold;
+}
+
+.review-rating .star-none {
+  color: #1C1C1C;
+}
+
+.review-right {
+  border-bottom: 1px solid #d5b58b;
+}
+
+.rating {
+  display: inline-block;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before, .rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: gold;
+}
+
+.comments {
+  padding: 20px 30px;
+}
 
 /* ************** FORMULAIRE CONTACT & RECRUTEMENT **************** */
 
