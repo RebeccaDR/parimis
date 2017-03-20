@@ -566,6 +566,14 @@ iframe {
   padding: 20px 30px;
 }
 
+/* ************** CONTENU PRESSE **************** */
+
+.frontpage1 { background-image: url('../images/pressefront1.png')}
+.frontpage2 { background-image: url('../images/pressefront2.png')}
+.frontpage3 { background-image: url('../images/pressefront3.png')}
+.frontpage4 { background-image: url('../images/pressefront4.png')}
+
+
 /* ************** FORMULAIRE CONTACT & RECRUTEMENT **************** */
 
 form {
