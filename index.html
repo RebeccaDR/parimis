@@ -7,9 +7,69 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,700,800|Playfair+Display+SC:400,700,900" rel="stylesheet">
     <meta name="description" content="A deux pas des Champs Elysées, l'hôtel Parimis vous propose une expérience onirique dans un cadre d'exception. Le restaurant et le spa viendront compléter une visite pleine de charme."
   </head>
-  <body>
-    <div id="container">
-
+  <body class="accueil">
+    <div id="carrousel">
+      <h1 class="titre-accueil">Luxe, Calme &amp; Volupté</h1>
+      <div class="circular-menu">
+        <span class="smallbutton"><span></span></span>
+        <div class="wrap">
+          <a href="#"><div></div></a>
+          <a href="#"><div></div></a>
+          <a href="#"><div></div></a>
+          <a href="#"><div></div></a>
+          <a href="#"><div></div></a>
+        </div>
+      </div>
+      <footer class="grid_12 footer footer-accueil">
+        <div class="grid_2 language">
+          <div class="world-icon"></div>
+          <div class="language-span"><span>FR</span><br /><span>EN</span></div>
+          <div class="clear"></div>
+        </div>
+        <div class="grid_8">
+          <ul class="bottom-nav">
+            <li><a href="./mentions-legales.html">Mentions légales</a></li>
+            <li><a href="./terms-of-sale.html">Conditions Générales de Vente</a></li>
+            <li><a href="./sitemap.html">Plan du Site</a></li><br/>
+            <li><a href="./acces-contact.html">Accès/Contact</a></li>
+            <li><a href="./avis.html">Avis</a></li>
+            <li><a href="./presse.html">Presse</a></li>
+            <li><a href="./recrutement.html">Recrutement</a></li>
+          </ul>
+        </div>
+        <div class="grid_2">
+          <ul class="sprite">
+            <li class="print"><a href="#"></a></li>
+            <li class="facebook"><a href="#"></a></li>
+            <li class="twitter"><a href="#"></a></li>
+            <li class="googleplus"><a href="#"></a></li>
+            <li class="share"><a href="#"></a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
+
+    <img src="./images/hotel_1.jpg" class="cache"/>
+    <img src="./images/hotel_2.jpg" class="cache"/>
+    <img src="./images/hotel_3.jpg" class="cache"/>
+    <img src="./images/hotel_4.jpg" class="cache"/>
+    <img src="./images/hotel_5.jpg" class="cache"/>
+    <script>
+
+    var monImg = 1;
+    var carrousel = document.getElementById("carrousel");
+
+    function changeImage() {
+      monImg += 1;
+      carrousel.style['background-image'] = "url('./images/hotel_" + monImg + ".jpg')";
+
+      if(monImg == 5) {
+        monImg = 0;
+      }
+    }
+
+    var timer = setInterval(changeImage, 6000);
+
+    </script>
   </body>
 </html>
