@@ -1,0 +1,59 @@
+@media (max-width: 800px) {
+  /*.container {
+    background-color: green;
+  }*/
+
+  .content {
+    width: calc(100% - 40px);
+    padding: 20px;
+  }
+
+  .logo {
+    width:70%;
+  }
+
+  .banner {
+    width:30%;
+  }
+
+  .banner-button a {
+    padding: 8px;
+    margin: 7px;
+    font-size: 1.1em;
+    float: right;
+  }
+
+  .menu-item {
+    font-size: 1.2em;
+    width: 32%;
+  }
+
+  .grid_4.actu {
+    width: 50%;
+  }
+}
+
+@media (max-width: 530px) {
+  /*.container {
+    background-color: blue;
+  }*/
+
+  .content {
+    width: calc(100% - 20px);
+    padding: 20px 10px;
+  }
+
+  .logo-text {
+    font-size: 1.6em;
+    margin-top: 1.4em;
+  }
+
+  .menu-item {
+    font-size: 1em;
+  }
+
+  .grid_4.actu {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}

@@ -227,13 +227,9 @@ a:hover div {
 }
 
 .logo-img {
-  height: 145px;
-  width: 40%;
+  height: calc(100% - 20px);
+  margin: 10px 0;
   float: left;
-  background-image: url('../images/logo_small200.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 145px auto;
 }
 
 .logo-text {
@@ -241,8 +237,6 @@ a:hover div {
   float: left;
   font-family: 'Playfair Display SC', serif;
   font-weight: 400;
-  margin: 8% auto;
-  padding: 10px;
 }
 
 .banner {

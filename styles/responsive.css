@@ -1,0 +1,41 @@
+@media (max-width: 960px) {
+  .container {
+    /*background-color: red;*/
+    width: 100%;
+    margin: 0;
+  }
+
+  .navbar {
+    position: relative;
+  }
+  .navbar li {
+    position: static;
+  }
+
+  .logo {
+    position: relative;
+  }
+
+  .logo-text {
+    margin-top: 1em;
+  }
+
+  .acces.events iframe{
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .menu-item {
+    z-index: 0;
+  }
+
+  .navbar li .drop {
+
+    left: 0;
+  }
+
+  .navbar li .drop .menu-item {
+    z-index: 10;
+    max-width: 300px;
+  }
+}
