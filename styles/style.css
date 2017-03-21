@@ -20,6 +20,42 @@ p {
   text-align: justify;
 }
 
+
+/* ************** ACCUEIL **************** */
+
+.accueil {
+  background: #837979;
+  position: relative;
+}
+
+#carrousel {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/hotel_1.jpg');
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.titre-accueil {
+  position: absolute;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3em;
+  font-weight: 400;
+  color: #eedfcb;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cache {
+  display: none;
+}
+
+.footer-accueil {
+  position: absolute;
+  bottom: 0;
+}
+
 /* ************** GRILLE **************** */
 
 .grid_1{width: 8.33%;}
@@ -623,7 +659,7 @@ footer {
 
 .language .world-icon {
   float: left;
-  margin: 15px 8px 0 20px;
+  margin: 10px 8px 0 20px;
   width: 30px;
   height: 30px;
   background: url("../images/sprite.png") no-repeat;
@@ -633,7 +669,7 @@ footer {
 .language div {
   float: left;
   width: 50px;
-  margin: 10px 5px;
+  margin: 6px 5px 0 0;
 }
 
 .language div span {
@@ -668,28 +704,28 @@ footer {
 }
 
 .sprite {
-  padding: 8px 0 0 0;
-  margin: 0;
-  text-align: center;
+  padding: 0;
+  margin: 10px 20px 0 0;
+  text-align: right;
 }
 
 .sprite li {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-image: url("../images/sprite.png");
+  width: 25px;
+  height: 25px;
+  background-image: url("../images/sprite2.png");
   background-repeat: no-repeat;
   margin: 0;
 }
 
-.print { background-position: -120px 0; }
-.facebook { background-position: -90px 0; }
-.twitter { background-position: -60px 0; }
-.googleplus { background-position: -30px 0; }
+.print { background-position: -100px 0; }
+.facebook { background-position: -75px 0; }
+.twitter { background-position: -50px 0; }
+.googleplus { background-position: -25px 0; }
 .share { background-position: 0 0; }
 
-.print:hover { background-position: -120px -30px; }
-.facebook:hover { background-position: -90px -30px; }
-.twitter:hover { background-position: -60px -30px; }
-.googleplus:hover { background-position: -30px -30px; }
-.share:hover { background-position: 0 -30px; }
+.print:hover { background-position: -100px -25px; }
+.facebook:hover { background-position: -75px -25px; }
+.twitter:hover { background-position: -50px -25px; }
+.googleplus:hover { background-position: -25px -25px; }
+.share:hover { background-position: 0 -25px; }
