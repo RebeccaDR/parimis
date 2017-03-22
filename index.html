@@ -12,16 +12,18 @@
   <body class="accueil">
     <div id="carrousel">
       <h1 class="titre-accueil">Luxe, Calme &amp; Volupté</h1>
+      <h2 class="soustitre-accueil">Une expérience <strong>unique</strong> à deux pas des <strong>Champs Elysées</strong></h2>
       <div class="circular-menu">
         <span class="smallbutton"><span></span></span>
         <div class="wrap">
-          <a href="#"><div></div></a>
-          <a href="#"><div></div></a>
-          <a href="#"><div></div></a>
-          <a href="#"><div></div></a>
-          <a href="#"><div></div></a>
+          <a href="./chambres.html"><div></div></a>
+          <a href="./reservation.html"><div></div></a>
+          <a href="./restaurant.html"><div></div></a>
+          <a href="./spa.html"><div></div></a>
+          <a href="./hotel.html"><div></div></a>
         </div>
       </div>
+      <h4>Hôtel Parimis - 1 avenue Montaigne, 75008 Paris</h4>
       <footer class="grid_12 footer footer-accueil">
         <div class="grid_3 language">
           <div class="world-icon"></div>
@@ -63,7 +65,7 @@
 
     function changeImage() {
       monImg += 1;
-      carrousel.style['background-image'] = "url('./images/hotel_" + monImg + ".jpg')";
+      carrousel.style['background-image'] = "url('./images/hotel_" + monImg + ".png')";
 
       if(monImg == 5) {
         monImg = 0;

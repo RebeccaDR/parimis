@@ -31,6 +31,29 @@
   .grid_4.actu {
     width: 50%;
   }
+
+  .slidebar .illustration .slidebar-title {
+    font-size: 1.4em;
+  }
+
+  .slidebar-room {
+    height: auto;
+  }
+
+  .slidebar .description {
+    margin-bottom: 5%;
+  }
+
+  .slidebar .description .description-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .slidebar-room .book-button {
+    vertical-align: top;
+    margin: 0 auto;
+    width: 95%;
+  }
 }
 
 @media (max-width: 530px) {
@@ -55,5 +78,27 @@
   .grid_4.actu {
     width: 100%;
     margin-bottom: 0;
+  }
+
+  .slidebar .illustration .slidebar-title {
+    font-size: 1.2em;
+  }
+  .slidebar-room {
+    height: auto;
+  }
+
+  .slidebar .description {
+    margin-bottom: 5%;
+  }
+
+  .slidebar .description .description-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .slidebar-room .book-button {
+    vertical-align: top;
+    margin: 0 auto;
+    width: 95%;
   }
 }

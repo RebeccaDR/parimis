@@ -31,12 +31,12 @@ p {
 #carrousel {
   width: 100%;
   height: 100vh;
-  background-image: url('../images/hotel_1.jpg');
+  background-image: url('../images/hotel_1.png');
   background-position: center;
   transition: background-image 1s ease-in-out;
 }
 
-.titre-accueil {
+.titre-accueil, .soustitre-accueil, #carrousel h4 {
   font-family: 'Playfair Display SC', serif;
   font-size: 3.5em;
   font-weight: 400;
@@ -45,8 +45,27 @@ p {
   margin: 0 auto;
   text-align: center;
   padding-top: 10vh;
-  padding-bottom: 20vh;
+  padding-bottom: 2vh;
   text-shadow: 5px 5px 9px #545454;
+}
+
+.soustitre-accueil {
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #545454;
+  padding-top: 0;
+  padding-bottom: 12vh;
+}
+
+.soustitre-accueil strong {
+  text-shadow: 3px 3px 3px #949494;
+}
+
+#carrousel h4 {
+  position: absolute;
+  padding-top: 15vh;
+  font-size: 1.2em;
+  text-shadow: 5px 5px 9px #545454;
+  bottom: 80px;
 }
 
 .circular-menu {
@@ -80,6 +99,7 @@ p {
 .wrap a div{
   height: 100%;
   background-size: cover;
+  /*background-position: center;*/
   opacity:.5;
   transition: opacity .5s;
   border-radius: inherit;
@@ -94,7 +114,7 @@ p {
 }
 
 .wrap a:nth-child(1) div{
-  background-image:url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+  background-image:url('../images/homemenu_chambres.png');
 }
 
 .wrap a:nth-child(2){
@@ -106,7 +126,7 @@ p {
 }
 
 .wrap a:nth-child(2) div{
-  background-image:url('https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg');
+  background-image:url('../images/homemenu_hotel.png');
 }
 
 .wrap a:nth-child(3){
@@ -118,7 +138,7 @@ p {
 }
 
 .wrap a:nth-child(3) div{
-  background-image:url('https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg');
+  background-image:url('../images/homemenu_resto.png');
 }
 
 .wrap a:nth-child(4){
@@ -130,7 +150,7 @@ p {
 }
 
 .wrap a:nth-child(4) div{
-  background-image: url('https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg');
+  background-image: url('../images/homemenu_spa.png');
 }
 
 .wrap a:nth-child(5){
@@ -233,10 +253,14 @@ a:hover div {
 }
 
 .logo-text {
-  color: #d5b58b;
   float: left;
   font-family: 'Playfair Display SC', serif;
   font-weight: 400;
+}
+
+.logo-text a {
+  text-decoration: none;
+  color: #d5b58b;
 }
 
 .banner {
