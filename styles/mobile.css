@@ -28,6 +28,10 @@
     width: 32%;
   }
 
+  .navbar li .drop {
+    width: 80%;
+  }
+
   .grid_4.actu {
     width: 50%;
   }
