@@ -62,7 +62,7 @@ p {
 
 #carrousel h4 {
   position: absolute;
-  padding-top: 15vh;
+  padding-top: 2vh;
   font-size: 1.2em;
   text-shadow: 5px 5px 9px #545454;
   bottom: 80px;
@@ -89,8 +89,8 @@ p {
 
 .wrap a{
   position: absolute;
-  left: 0; top: 0;
-  width: 47.5%; height: 47.5%;
+  left: -4vh; top: -4vh;
+  width: 55%; height: 55%;
   overflow: hidden;
   transform: scale(.5) translateZ(0px);
   background: #706464;
