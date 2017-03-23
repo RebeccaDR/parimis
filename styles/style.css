@@ -87,7 +87,7 @@ p {
   transition: transform .5s, opacity .5s;
 }
 
-.wrap a{
+.wrap .circle a {
   position: absolute;
   left: -4vh; top: -4vh;
   width: 55%; height: 55%;
@@ -96,7 +96,7 @@ p {
   background: #706464;
 }
 
-.wrap a div{
+.wrap .circle a div{
   height: 100%;
   background-size: cover;
   /*background-position: center;*/
@@ -105,7 +105,7 @@ p {
   border-radius: inherit;
 }
 
-.wrap a:nth-child(1){
+.wrap .circle a:nth-child(1){
   /*left: -32%;
   top: -32%;*/
   border-radius: 150px 0 0 0;
@@ -113,11 +113,11 @@ p {
   transition:transform .4s .15s;
 }
 
-.wrap a:nth-child(1) div{
+.wrap .circle a:nth-child(1) div{
   background-image:url('../images/homemenu_chambres.png');
 }
 
-.wrap a:nth-child(2){
+.wrap .circle a:nth-child(2){
   border-radius: 0 150px 0 0;
   left: 53%;
   /*top: -32%;*/
@@ -125,11 +125,11 @@ p {
   transition:transform .4s .2s;
 }
 
-.wrap a:nth-child(2) div{
+.wrap .circle a:nth-child(2) div{
   background-image:url('../images/homemenu_hotel.png');
 }
 
-.wrap a:nth-child(3){
+.wrap .circle a:nth-child(3){
   border-radius:0 0 0 150px;
   /*left: -32%;*/
   top: 53%;
@@ -137,11 +137,11 @@ p {
   transition:transform .4s .25s;
 }
 
-.wrap a:nth-child(3) div{
+.wrap .circle a:nth-child(3) div{
   background-image:url('../images/homemenu_resto.png');
 }
 
-.wrap a:nth-child(4){
+.wrap .circle a:nth-child(4){
   border-radius:0 0 150px 0;
   left: 52.5%;
   top: 53%;
@@ -149,11 +149,11 @@ p {
   transition:transform .4s .3s;
 }
 
-.wrap a:nth-child(4) div{
+.wrap .circle a:nth-child(4) div{
   background-image: url('../images/homemenu_spa.png');
 }
 
-.wrap a:nth-child(5){
+.wrap .circle a:nth-child(5){
   width:55%;height:55%;
   left: 22.5%; top: 22.5%;
   border-radius:50vmin;
@@ -161,9 +161,34 @@ p {
   transform:scale(1);
 }
 
-.wrap a:nth-child(5) div{
+.wrap .circle a:nth-child(5) div{
   background-image: url('../images/logo_small200.png');
 }
+
+.wrap .titles a {
+  font-size: 2em;
+  color: white;
+  text-shadow: 5px 5px 9px #343434;
+  text-decoration: none;
+  position: absolute;
+}
+.wrap .titles a:nth-child(1) {
+  right: calc(100% + 10px);
+  top: 0;
+}
+.wrap .titles a:nth-child(2) {
+  left: calc(100% + 10px);
+  top: 0;
+}
+.wrap .titles a:nth-child(3) {
+  right: calc(100% + 10px);
+  bottom: 0;
+}
+.wrap .titles a:nth-child(4) {
+  left: calc(100% + 10px);
+  bottom: 0;
+}
+
 
 .smallbutton {
   position: absolute;
