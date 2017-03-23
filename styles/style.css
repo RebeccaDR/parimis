@@ -231,7 +231,7 @@ p {
   transform: scale(1) translatez(0px);
 }
 
-a:hover div {
+.wrap a:hover div {
   opacity: 1;
   transform: translatez(0px);
 }
@@ -656,13 +656,18 @@ iframe {
   padding-left: 20px;
 }
 
-.total-cart h4, .total-cart p, .total-cart input {
+.total-cart h4, .total-cart p {
   margin-top: 10px;
   margin-bottom: 5px;
 }
 
+.total-text, .total-text p {
+  padding: 0 10px;
+  text-align: right;
+}
+
 .cart-button {
-  margin: 16px;
+  margin: 0;
   font-size: 1em;
 }
 
@@ -813,7 +818,7 @@ label {
 textarea {
   width: 30vw;
   height: 20vh;
-  resize: vertical;
+  resize: both;
 }
 
 form .send-button {

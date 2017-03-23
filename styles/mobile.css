@@ -3,6 +3,18 @@
     background-color: green;
   }*/
 
+  .circular-menu {
+    padding-top: 10%;
+  }
+
+  .wrap .titles a {
+    font-size: 1.5em;
+  }
+
+  .titre-accueil {
+    font-size: 2.5em;
+  }
+
   .content {
     width: calc(100% - 40px);
     padding: 20px;
@@ -21,6 +33,7 @@
     margin: 7px;
     font-size: 1.1em;
     float: right;
+    text-align: center;
   }
 
   .menu-item {
@@ -70,6 +83,43 @@
     padding: 20px 10px;
   }
 
+  .titre-accueil {
+    padding-top: 5vh;
+    font-size: 2em;
+  }
+
+  .soustitre-accueil {
+    font-size: 1em;
+  }
+
+  .circle, .smallbutton {
+    display: none;
+  }
+
+  .wrap {
+    display: block;
+    transform: scale(1) translatez(0px);
+    opacity: 1;
+  }
+
+  .wrap .titles a {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 15px 0;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  .wrap .titles a:nth-child(1) {
+    padding-top: 30px;
+  }
+
+  #carrousel h4 {
+    font-size: 1.2em;
+    bottom: 120px;
+  }
+
   .logo-text {
     font-size: 1.6em;
     margin-top: 1.4em;
@@ -104,5 +154,39 @@
     vertical-align: top;
     margin: 0 auto;
     width: 95%;
+  }
+
+  .actu .legend {
+    bottom: 0;
+  }
+
+  textarea {
+    width: 30vh;
+    height: 25vh;
+  }
+
+  .detail-cart {
+    width: 30vh;
+  }
+
+  .total-text, .total-text p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .language .world-icon {
+    margin-left: 10px;
+  }
+
+  .bottom-nav {
+    font-size: 0.7em;
+  }
+
+  footer .sprite {
+    margin-right: 10px
+  }
+
+  li.print, .facebook, .twitter, .googleplus, .language-span {
+    display: none;
   }
 }

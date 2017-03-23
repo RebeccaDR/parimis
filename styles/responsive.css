@@ -5,6 +5,14 @@
     margin: 0;
   }
 
+  .titre-accueil {
+    font-size: 3em;
+  }
+
+  .soustitre-accueil {
+    font-size: 1.5em;
+  }
+
   .navbar {
     position: relative;
   }
