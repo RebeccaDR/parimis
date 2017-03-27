@@ -33,6 +33,7 @@ p {
   height: 100vh;
   background-image: url('../images/hotel_1.png');
   background-position: center;
+  background-repeat: no-repeat;
   transition: background-image 1s ease-in-out;
 }
 
