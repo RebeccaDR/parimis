@@ -115,7 +115,7 @@ p {
 }
 
 .wrap .circle a:nth-child(1) div{
-  background-image:url('../images/homemenu_chambres.png');
+  background-image:url('../images/homemenu_chambres.jpg');
 }
 
 .wrap .circle a:nth-child(2){
@@ -127,7 +127,7 @@ p {
 }
 
 .wrap .circle a:nth-child(2) div{
-  background-image:url('../images/homemenu_hotel.png');
+  background-image:url('../images/homemenu_hotel.jpg');
 }
 
 .wrap .circle a:nth-child(3){
@@ -139,7 +139,7 @@ p {
 }
 
 .wrap .circle a:nth-child(3) div{
-  background-image:url('../images/homemenu_resto.png');
+  background-image:url('../images/homemenu_resto.jpg');
 }
 
 .wrap .circle a:nth-child(4){
@@ -151,7 +151,7 @@ p {
 }
 
 .wrap .circle a:nth-child(4) div{
-  background-image: url('../images/homemenu_spa.png');
+  background-image: url('../images/homemenu_spa.jpg');
 }
 
 .wrap .circle a:nth-child(5){
@@ -297,10 +297,10 @@ p {
   padding: 0;
 }
 
-.banner-hotel {  background: url('../images/hotel_opacitybig.png');}
-.banner-chambres {  background: url('../images/chambre_opacitybig.png');}
-.banner-resto { background: url('../images/resto_opacitybig.png');}
-.banner-spa { background: url('../images/spa_opacitybig.png');}
+.banner-hotel {  background: url('../images/hotel_opacitybig.jpg');}
+.banner-chambres {  background: url('../images/chambre_opacitybig.jpg');}
+.banner-resto { background: url('../images/resto_opacitybig.jpg');}
+.banner-spa { background: url('../images/spa_opacitybig.jpg');}
 
 .banner-button {
   position: absolute;
@@ -477,10 +477,10 @@ nav {
   width: calc(100% - 10px);
 }
 
-.chambre-classique { background-image: url("../images/chambre_classique1big.png"); }
-.chambre-confort { background-image: url("../images/chambre_confort1big.png"); }
-.chambre-deluxe { background-image: url("../images/chambre_deluxe1big.png"); }
-.chambre-suite { background-image: url("../images/chambre_suite1big.png"); }
+.chambre-classique { background-image: url("../images/chambre_classique1big.jpg"); }
+.chambre-confort { background-image: url("../images/chambre_confort1big.jpg"); }
+.chambre-deluxe { background-image: url("../images/chambre_deluxe1big.jpg"); }
+.chambre-suite { background-image: url("../images/chambre_suite1big.jpg"); }
 
 .slidebar .illustration {
   width: 100%;
@@ -549,9 +549,9 @@ nav {
 
 /* ************** CONTENU RESTAURANT **************** */
 
-.brasserie-img { background-image: url("../images/brasseriebig.png"); }
-.restaurant-img { background-image: url("../images/restaurantbig.png"); }
-.degustation-img { background-image: url("../images/degustationbig.png"); }
+.brasserie-img { background-image: url("../images/brasseriebig.jpg"); }
+.restaurant-img { background-image: url("../images/restaurantbig.jpg"); }
+.degustation-img { background-image: url("../images/degustationbig.jpg"); }
 
 /*.slidebar-resto:hover .illustration {
   width: 100%;
@@ -572,11 +572,11 @@ nav {
   display: inline-block;
 }
 
-.spa-detente { background-image: url("../images/spa_detentebig.png"); }
-.spa-decouverte { background-image: url("../images/spa_decouvertebig.png"); }
-.spa-relaxant { background-image: url("../images/spa_relaxantbig.png"); }
-.spa-plaisir{ background-image: url("../images/spa_plaisirbig.png"); }
-.spa-evasion { background-image: url("../images/spa_evasionbig.png"); }
+.spa-detente { background-image: url("../images/spa_detentebig.jpg"); }
+.spa-decouverte { background-image: url("../images/spa_decouvertebig.jpg"); }
+.spa-relaxant { background-image: url("../images/spa_relaxantbig.jpg"); }
+.spa-plaisir{ background-image: url("../images/spa_plaisirbig.jpg"); }
+.spa-evasion { background-image: url("../images/spa_evasionbig.jpg"); }
 
 /* ************** CONTENU SITEMAP **************** */
 
